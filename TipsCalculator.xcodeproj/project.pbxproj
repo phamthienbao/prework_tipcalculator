@@ -13,6 +13,7 @@
 		DEF1B7BE1B84B20C00061B55 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DEF1B7BD1B84B20C00061B55 /* Images.xcassets */; };
 		DEF1B7C11B84B20C00061B55 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = DEF1B7BF1B84B20C00061B55 /* LaunchScreen.xib */; };
 		DEF1B7CD1B84B20D00061B55 /* TipsCalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF1B7CC1B84B20D00061B55 /* TipsCalculatorTests.swift */; };
+		DEF1B7DB1B84F39F00061B55 /* settingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF1B7DA1B84F39F00061B55 /* settingController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		DEF1B7C61B84B20C00061B55 /* TipsCalculatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TipsCalculatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DEF1B7CB1B84B20C00061B55 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DEF1B7CC1B84B20D00061B55 /* TipsCalculatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipsCalculatorTests.swift; sourceTree = "<group>"; };
+		DEF1B7DA1B84F39F00061B55 /* settingController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = settingController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 		DEF1B7B31B84B20C00061B55 /* TipsCalculator */ = {
 			isa = PBXGroup;
 			children = (
+				DEF1B7DA1B84F39F00061B55 /* settingController.swift */,
 				DEF1B7B61B84B20C00061B55 /* AppDelegate.swift */,
 				DEF1B7B81B84B20C00061B55 /* ViewController.swift */,
 				DEF1B7BA1B84B20C00061B55 /* Main.storyboard */,
@@ -156,6 +159,7 @@
 		DEF1B7A91B84B20C00061B55 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0700;
 				LastUpgradeCheck = 0640;
 				ORGANIZATIONNAME = "Bao Pham";
 				TargetAttributes = {
@@ -214,6 +218,7 @@
 			files = (
 				DEF1B7B91B84B20C00061B55 /* ViewController.swift in Sources */,
 				DEF1B7B71B84B20C00061B55 /* AppDelegate.swift in Sources */,
+				DEF1B7DB1B84F39F00061B55 /* settingController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -409,6 +414,7 @@
 				DEF1B7D21B84B20D00061B55 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DEF1B7D31B84B20D00061B55 /* Build configuration list for PBXNativeTarget "TipsCalculatorTests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +423,7 @@
 				DEF1B7D51B84B20D00061B55 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

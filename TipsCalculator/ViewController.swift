@@ -30,6 +30,18 @@ class ViewController: UIViewController {
         lbl_total.text = String(format:"$ %.1f", totalBill)
         
     }
+    
+    
+    @IBAction func tipPercentChanged(sender: AnyObject) {
+        var billAmount:Double! = Double((txt_bill.text as NSString).doubleValue)
+        let items = [0.10, 0.15, 0.20]
+        let selectedPercent = items[tipPercent.selectedSegmentIndex]
+        var tips = billAmount * selectedPercent
+        var totalBill = billAmount + tips
+        lbl_tips.text = String(format:"$ %.1f", tips)
+        lbl_total.text = String(format:"$ %.1f", totalBill)
+        
+    }
     override func viewDidLoad() {
         super.viewDidLoad()
                 //Get default value from setting

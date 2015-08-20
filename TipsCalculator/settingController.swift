@@ -33,7 +33,7 @@ class settingController: UIViewController {
     
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject!) {
         if (segue.identifier == "loadMainForm") {
-            var svc = segue.destinationViewController as! ViewController;
+            let svc = segue.destinationViewController as! ViewController;
             svc.defPercent = defaultValue.selectedSegmentIndex
             svc.temp_totalbill = getTempBill
            

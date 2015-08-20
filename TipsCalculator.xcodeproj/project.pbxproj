@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DE1450871B85BF410051D071 /* tipcalculator_assignment.gif in Resources */ = {isa = PBXBuildFile; fileRef = DE1450861B85BF410051D071 /* tipcalculator_assignment.gif */; };
 		DEF1B7B71B84B20C00061B55 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF1B7B61B84B20C00061B55 /* AppDelegate.swift */; };
 		DEF1B7B91B84B20C00061B55 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF1B7B81B84B20C00061B55 /* ViewController.swift */; };
 		DEF1B7BC1B84B20C00061B55 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DEF1B7BA1B84B20C00061B55 /* Main.storyboard */; };
@@ -27,6 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		DE1450861B85BF410051D071 /* tipcalculator_assignment.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = tipcalculator_assignment.gif; sourceTree = "<group>"; };
 		DEF1B7B11B84B20C00061B55 /* TipsCalculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TipsCalculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DEF1B7B51B84B20C00061B55 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DEF1B7B61B84B20C00061B55 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -79,6 +81,7 @@
 		DEF1B7B31B84B20C00061B55 /* TipsCalculator */ = {
 			isa = PBXGroup;
 			children = (
+				DE1450861B85BF410051D071 /* tipcalculator_assignment.gif */,
 				DEF1B7DA1B84F39F00061B55 /* settingController.swift */,
 				DEF1B7B61B84B20C00061B55 /* AppDelegate.swift */,
 				DEF1B7B81B84B20C00061B55 /* ViewController.swift */,
@@ -199,6 +202,7 @@
 				DEF1B7BC1B84B20C00061B55 /* Main.storyboard in Resources */,
 				DEF1B7C11B84B20C00061B55 /* LaunchScreen.xib in Resources */,
 				DEF1B7BE1B84B20C00061B55 /* Images.xcassets in Resources */,
+				DE1450871B85BF410051D071 /* tipcalculator_assignment.gif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
